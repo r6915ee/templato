@@ -1,6 +1,6 @@
 # Templato
 
-Templato is an extremely simple, command line program for using template files.
+Templato is an extremely simple command line program for using template files.
 
 Templato is great for general-purpose use, due to its speed and the simple
 syntax of the actual command line arguments.
