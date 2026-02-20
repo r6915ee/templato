@@ -1,6 +1,6 @@
 [package]
 name = "templato"
-version = "0.1.0"
+version = "0.1.1"
 description = "Extremely simple program for using template files"
 keywords = ["template", "templates"]
 categories = ["command-line-utilities", "filesystem"]
