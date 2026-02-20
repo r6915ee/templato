@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+cz check --allow-abort -l 80 --commit-msg-file $1
