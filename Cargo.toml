@@ -1,7 +1,15 @@
 [package]
 name = "templato"
 version = "0.1.0"
+description = "Extremely simple program for using template files"
+keywords = ["template", "templates"]
+categories = ["command-line-utilities", "filesystem"]
+license = "MIT OR Apache-2.0"
 edition = "2024"
+authors = ["r6915ee <astergthefourth@gmail.com>"]
+repository = "https://codeberg.org/r6915ee/templato"
+homepage = "https://codeberg.org/r6915ee/templato"
+readme = "README.md"
 
 [dependencies]
 clap = { version = "4.5.59", features = ["cargo"] }

@@ -49,3 +49,8 @@ safely used with both flags above.
 The order of search paths matters, because Templato will use the first template
 it finds in the search paths. Prepending in this case can be useful in order to
 force Templato to use that search path first.
+
+## License
+
+Templato uses either the [MIT license](./LICENSE-MIT) OR the [Apache 2.0
+license](./LICENSE-APACHE).
