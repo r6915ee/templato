@@ -10,6 +10,7 @@ pkgs.mkShell {
     cargo
     rust-analyzer
     commitizen
+    marksman
   ];
   shellHook = ''
     ./install-hooks.sh
