@@ -5,6 +5,43 @@ Templato is an extremely simple command line program for using template files.
 Templato is great for general-purpose use, due to its speed and the simple
 syntax of the actual command line arguments.
 
+## Installation
+
+### Cargo
+
+Templato is available on Crates.io, and may be installed through Cargo:
+
+```sh
+cargo install templato
+```
+
+### Nix Flake
+
+Templato also has a Nix Flake available for use. Add the repository as an input
+to your system flake:
+
+```nix
+inputs.templato = {
+  url = "git+https://codeberg.org/r6915ee/templato";
+  inputs.nixpkgs.follows = "nixpkgs";
+};
+```
+
+You can then make use of the package provided by the Flake by using
+`inputs.templato.packages.arch.default`, where `arch` is the current
+CPU architecture used by the system.
+
+```nix
+{
+  inputs
+}:
+{
+  environment.systemPackages = {
+    (inputs.templato.packages.x86_64-linux.default)
+  };
+}
+```
+
 ## Usage
 
 ### Basic
