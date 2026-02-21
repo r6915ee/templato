@@ -1,5 +1,5 @@
 {
-  pkgs ? import <nixpkgs> { },
+  pkgs,
 }:
 let
   manifest = pkgs.lib.fromTOML (builtins.readFile ./Cargo.toml);
